@@ -1,0 +1,88 @@
+.detailfig {
+max-height: 180px;
+border: solid 2px ; 
+margin-right: 20px;
+}
+
+h1,h2{
+  text-align: center;
+}
+h3{
+  margin: 5px;
+}
+
+.prijs {
+  font-style:italic;
+  font-weight: bold;
+  font-family: sans-serif;
+  color:red;
+  text-align:right;
+}
+
+.naam {
+  font-weight:bold;
+  color:orange;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+
+.details {	
+  border:solid 5px var(--green);
+  background-color: var(--lightgreen);
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+  width: 700px;
+  height: auto;
+}
+
+.specs{
+  display: flex;
+}
+
+.Keuzes{
+  text-align: center;	
+}
+
+
+
+.hoofd{
+width : 200px;
+}
+
+.bestel {
+margin : 5px auto;
+box-shadow : 0px 2px 2px rgba(0,0,0,0.4);
+font-size : 20px;
+width : 90%;   
+}
+
+
+
+.besteldetails{
+margin : 5px auto;
+border : solid 1px black;
+border-radius : 3px;
+box-shadow : 0px 2px 2px rgba(0,0,0,0.4);
+font-size : 20px;
+padding : 5px;
+color : darkslategrey;
+background-color :lightgray;
+width : 90%;
+}
+
+.totaalprijs{
+margin : 5px auto;
+border : solid 2px blue;
+border-radius : 3px;
+box-shadow : 0px 2px 2px rgba(0,0,0,0.4);
+font-size : 20px;
+color : darkblue;
+padding : 5px;
+background-color : lightblue;}
+
+#divFeedback{
+text-align: center;
+color : red;
+}
